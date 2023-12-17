@@ -1,0 +1,37 @@
+.hero-container {
+    padding-top: 133px;
+    background-color: $bg-color;
+    display: flex;
+    gap: 30px;
+    padding-bottom: 250px;
+
+    .heading {
+        width: 635px;
+        color: $white-color;
+        font-size: 100px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 100px;
+    }
+
+    .-- {
+        width: 50px;
+        height: 4px;
+        background-color: #79C8C7;
+    }
+
+    .text {
+        width: 445px;
+        color: $white-color;
+        font-size: 18px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    .right {
+        display: flex;
+        flex-direction: column;
+        gap: 79px;
+    }
+}
